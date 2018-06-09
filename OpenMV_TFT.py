@@ -26,8 +26,8 @@ from micropython import const
 
 
 class TFT():
-  ili9341 = const(2)
   st7735 = const(1)
+  ili9341 = const(2)
   _SWRESET = const(0x01) # Software Reset
   _SLPOUT = const(0x11) # Sleep Out
   _COLMOD = const(0x3A) # Colour Mode
